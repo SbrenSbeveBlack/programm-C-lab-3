@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include<string.h>
+    int main()
+{
+  char str[81];
+  int i;
+ printf("Введите символы:");
+ scanf(%80.str);
+   
+   for(i=0;i<strlen(str);i++){
+       if(str[i]=='a', str[i]=='b'){
+        str[i]=toupper(str[i]);
+        }
+   }
+printf("Изменная строка:%s\n",str);
+   
+    return 0;
+}
