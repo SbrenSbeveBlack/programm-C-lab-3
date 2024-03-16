@@ -4,16 +4,16 @@ int main()
 {
  char m[80];
  int i;
- printf("Введите символы:");
+ printf("Введите символы: ");
  fgets(m,sizeof(m), stdin);
-   for(i=0 ; i<80 ; i++){
+   for(i; i<80 ; i++){
        if(m[i]=='a'){
         m[i] = 'A';}
        else if(m[i]=='b'){
         m[i] = 'B';}
    }
    
-    printf("Изменная строка:%s\n",m);
+    printf("Изменная строка: %s\n",m);
    
     return 0;
 }
